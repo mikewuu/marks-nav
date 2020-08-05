@@ -1,0 +1,32 @@
+{
+  "name": "marks",
+  "main": "./lib/marks",
+  "version": "0.0.1",
+  "description": "Add marks to help navigating large notes",
+  "keywords": [
+    "inkdrop",
+    "marks"
+  ],
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "dev": "babel src/ -s -d lib/ --watch"
+  },
+  "repository": "https://github.com/mikewudev/inkdrop-marks.git",
+  "license": "MIT",
+  "engines": {
+    "inkdrop": "^4.x"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.18.0",
+    "prettier": "^1.19.1"
+  }
+}
