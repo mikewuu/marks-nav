@@ -1,6 +1,6 @@
 {
   "name": "marks",
-  "main": "./lib/marks",
+  "main": "./lib/index",
   "version": "0.0.1",
   "description": "Add marks to help navigating large notes",
   "keywords": [
@@ -19,7 +19,7 @@
   "devDependencies": {
     "@babel/cli": "^7.8.3",
     "@babel/core": "^7.8.3",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-transform-modules-commonjs": "^7.10.4",
     "@babel/preset-env": "^7.8.3",
     "@babel/preset-react": "^7.8.3",
     "babel-eslint": "^10.0.3",
