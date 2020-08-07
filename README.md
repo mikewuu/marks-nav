@@ -10,7 +10,7 @@ ipm install marks
 
 ## Usage
 
-Bold some text and append an *emphasized* colon. ie. `** About marks*:* **` 
+Bold some text with a colon. ie. `** About marks:**` 
 
 ##### Example:
 
