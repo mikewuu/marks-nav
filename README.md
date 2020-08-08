@@ -4,7 +4,7 @@ Helps you navigate to highlights/marks, by rendering all your marks in a single 
 
 ## Requirements
 
-You'll need a different plugin to provide marking/highlighting. Any that renders a `<mark>` element should work, but this plugin was ==tested with 'inkdrop-mark-text'==.
+You'll need a different plugin to provide marking/highlighting. Any that renders a `<mark>` element should work, but this plugin was tested with 'inkdrop-mark-text'.
 
 ## Install
 
