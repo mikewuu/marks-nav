@@ -1,36 +1,30 @@
 # Marks Navigation for Inkdrop
 
-A plugin that lets you add marks to help navigate long notes. Marks are intended for jumping in-and-out of areas of interest. They're less formal than headings, and intended to be used between paragraphs, or even sentences.
+Helps you navigate to highlights/marks, by rendering all your marks in a single section as clickable links.
+
+## Requirements
+
+You'll need a different plugin to provide marking/highlighting. Any that renders a `<mark>` element should work, but this plugin was ==tested with 'inkdrop-mark-text'==.
 
 ## Install
 
 ```
-ipm install marks
+ipm install marks-nav
 ```
 
 ## Usage
 
-Bold some text with a colon. ie. `** About marks:**` 
+To insert your marks, create a heading with the value `marks` (case-insensitive), and all your marks in the note will be shown below it in block quotes.
 
-##### Example:
 
-> Let's see how we can add marks in the middle of a paragraph. ** About marks*:* ** Every mark has a title, and won't be rendered when viewed in Inkdrop. The title will shown in the marks menu.
-
-The abstract syntax allows for graceful fallback: if your note is ever rendered in another markdown renderer seeing a mark shouldn't be too out of place for the reader.
-
-To bring up the marks in your note, use the `marks:show` command. Then click on a mark to navigate to its location.
-
-### Shortcuts
-
-| Action | Mac | Windows | Linux |
-| ------- | ------- | ------- | ------- |
-| Show Marks Menu | `cmd + m`  | `ctrl + m` | `ctrl + m` |
+## Example
 
 
 ## Roadmap
 
-Possible features to be implemented in no particular order:
+Possible features to be implemented:
 
-- Shortcut to jump to a specific mark (ie. `ctrl + m + 3 + <CR>` to go to the 3rd mark)
-- Shortcut to jump back to previous location
-- Snippet to insert mark
+- Shortcut to jump through marks
+- Click a mark to go back to list
+- Shortcut to go to marks list
+

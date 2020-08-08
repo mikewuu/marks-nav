@@ -1,8 +1,8 @@
 {
-  "name": "marks",
+  "name": "inkdrop-marks-nav",
   "main": "./lib/index",
   "version": "0.0.1",
-  "description": "Add marks to help navigating large notes",
+  "description": "Inkdrop plugin to help you navigate marks",
   "keywords": [
     "inkdrop",
     "marks"
@@ -11,7 +11,7 @@
     "build": "babel src/ -d lib/",
     "dev": "babel src/ -s -d lib/ --watch"
   },
-  "repository": "https://github.com/mikewudev/inkdrop-marks.git",
+  "repository": "https://github.com/mikewudev/inkdrop-marks-nav.git",
   "license": "MIT",
   "engines": {
     "inkdrop": "^4.x"
