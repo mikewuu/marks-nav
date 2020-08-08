@@ -16,10 +16,6 @@ ipm install marks-nav
 
 To insert your marks, create a heading with the value `marks` (case-insensitive), and all your marks in the note will be shown below it in block quotes.
 
-
-## Example
-
-
 ## Roadmap
 
 Possible features to be implemented:
@@ -28,3 +24,7 @@ Possible features to be implemented:
 - Click a mark to go back to list
 - Shortcut to go to marks list
 
+
+## Example
+
+![Example](https://github.com/mikewudev/inkdrop-marks-nav/blob/master/example.png)
