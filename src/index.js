@@ -2,7 +2,6 @@
 
 import { markdownRenderer } from 'inkdrop'
 import { marksPlugin } from './plugin'
-import { createMarkAnchor } from './anchor'
 
 export function activate() {
   if (!markdownRenderer) {
@@ -10,10 +9,6 @@ export function activate() {
   }
 
   markdownRenderer.remarkPlugins.push(marksPlugin)
-
-  if (!inkdrop.isMobile) {
-    // setMarksLink()
-  }
 }
 
 export function deactivate() {
@@ -22,12 +17,4 @@ export function deactivate() {
       plugin => plugin !== marksPlugin
     )
   }
-}
-
-let originalAnchor = null
-
-function setMarksLink() {
-  originalAnchor = markdownRenderer.remarkReactComponents.a
-  const markLink = createMarkAnchor(originalAnchor)
-  markdownRenderer.remarkReactComponents.a = markLink
 }
