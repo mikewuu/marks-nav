@@ -11,7 +11,7 @@
     "build": "babel src/ -d lib/",
     "dev": "babel src/ -s -d lib/ --watch"
   },
-  "repository": "https://github.com/mikewudev/inkdrop-marks-nav.git",
+  "repository": "https://github.com/mikewudev/marks-nav.git",
   "license": "MIT",
   "engines": {
     "inkdrop": "^4.x"
