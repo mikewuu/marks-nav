@@ -7,6 +7,11 @@ export const findMarksHeaderIndex = tree =>
       return
     }
 
-    const textVal = node.children[0].value.toLowerCase()
+    const valueNode = node.children[0]
+    if (!valueNode) {
+      return
+    }
+
+    const textVal = valueNode.value.toLowerCase()
     return textVal === HEADER_TEXT
   })
