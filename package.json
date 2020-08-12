@@ -1,7 +1,7 @@
 {
   "name": "marks-nav",
   "main": "./lib/index",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Inkdrop plugin to help you navigate marks",
   "keywords": [
     "inkdrop",
