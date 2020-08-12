@@ -27,4 +27,4 @@ Possible features to be implemented:
 
 ## Example
 
-![Example](https://github.com/mikewudev/inkdrop-marks-nav/blob/master/example.png)
+![Example](https://user-images.githubusercontent.com/11449462/89780011-9100cb80-db4b-11ea-9cd1-d40990e0197e.png)
